@@ -1,0 +1,117 @@
+nav a {
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+
+nav > ul {
+  list-style: none; /* 移除項目符號 */
+}
+.navigation > li {
+  display: inline-block;
+}
+.navigation {
+  text-align: center;
+  background-color: #040d46;
+}
+
+.left,
+.right {
+  display: inline-block;
+  min-height: calc(100%-30px); /*減去footer高度*/
+  margin-bottom: 50px;
+}
+.left {
+  width: 65%;
+  padding: 30px;
+}
+.right {
+  margin-top: 30px;
+  width: 30%;
+  flex: 0 0 25%;
+}
+
+#about {
+  background-color: #19223e;
+  color: #ffffff;
+}
+#about h2 {
+  color: #ddd7ce;
+}
+
+.inner {
+  padding-left: 20px;
+  margin: 0 auto;
+}
+#pick {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#type {
+  background: #ebedf7;
+}
+a {
+  color: inherit; /* 移除超連結顏色 */
+  text-decoration: none; /* 移除超連結底線 */
+}
+h3 {
+  border-left: solid 6px #08146b;
+  padding-left: 6px;
+}
+
+section {
+  margin: 48px 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: solid 1px #868693;
+  padding: 16px;
+}
+th {
+  font-weight: 400;
+  background-color: #ced0dd;
+}
+
+.other,
+.lable,
+.buy,
+.news {
+  background-color: #c3c9e6a8;
+  padding: 20px;
+  color: #868693;
+}
+.lable > a {
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #7f7f9c;
+  padding: 5px;
+  display: inline-block;
+}
+.buy > img {
+  height: 150px;
+  width: 150px;
+}
+footer {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1em;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.pagetop {
+  text-align: right;
+  margin: 1em;
+}
+
+.copyright {
+  border-top: solid 5px #5d7fca;
+  text-align: center;
+  padding-top: 20px;
+}
