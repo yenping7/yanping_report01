@@ -33,6 +33,8 @@ nav > ul {
 #about {
   background-color: #19223e;
   color: #ffffff;
+  max-width: 900px;
+  margin: 0 auto;
 }
 #about h2 {
   color: #ddd7ce;
@@ -48,6 +50,8 @@ nav > ul {
 }
 
 #type {
+  max-width: 900px;
+  margin: 0 auto;
   background: #ebedf7;
 }
 a {
